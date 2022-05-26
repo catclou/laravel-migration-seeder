@@ -8,7 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-success">Prova</h1>
+
+    @include('includes.header')
+
+    
 
     <script src=" {{ asset('js/app.js') }} "></script>
 </body>
