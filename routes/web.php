@@ -20,3 +20,4 @@ Route::get('/contacts', 'PageController@contacts')->name('contacts');
 
 // Rotte per la gestione dei treni
 Route::get('/trains', 'TrainController@index')->name('trains');
+// Route::get('/trains/{id}', 'TrainController@show')->name('trains');
